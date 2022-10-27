@@ -3,7 +3,7 @@
 }
 
 .sobre {
-  color: #FFF;
+  color: #fff;
   height: 560px;
   box-sizing: border-box;
   display: grid;
@@ -14,12 +14,12 @@
 }
 
 .sobre h2 {
-    font-size: 8rem;
-    line-height: 1;
-    text-transform: uppercase;
-    word-break: break-all;
-    max-width: 6ch;
-    color: rgba(25, 25, 31, 1);
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 6ch;
+  color: rgba(25, 25, 31, 1);
 }
 
 .sobre h3 {
@@ -29,16 +29,16 @@
 
 .sobre p {
   font-size: 1.25rem;
-  color: #CCCCCC;
+  color: #cccccc;
   margin-bottom: 30px;
   font-weight: normal;
 }
 
 .sobre strong {
-  color: #FFF;
+  color: #fff;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .sobre {
     grid-template-columns: 1fr;
     max-width: 54ch;

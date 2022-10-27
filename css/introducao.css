@@ -1,9 +1,9 @@
 .introducao-bg {
-  background: #0F0F0F;
+  background: #0f0f0f;
 }
 
 .introducao {
-  color: #FFF;
+  color: #fff;
   height: 560px;
   justify-content: center;
   display: flex;
@@ -25,14 +25,22 @@
   margin-top: 60px;
   padding: 15px 60px;
   display: inline-block;
-  background: linear-gradient(100.77deg, #6C63FF 5.1%, rgba(32, 19, 251, 0) 177.71%);
+  background: linear-gradient(
+    100.77deg,
+    #6c63ff 5.1%,
+    rgba(32, 19, 251, 0) 177.71%
+  );
   border-radius: 4px;
   margin-right: 10px;
 }
 
 .botao:hover {
-  background: linear-gradient(100.77deg, #483DF5 5.1%, rgba(29, 18, 251214, 0) 177.71%);
-  transition: .3s;
+  background: linear-gradient(
+    100.77deg,
+    #483df5 5.1%,
+    rgba(29, 18, 251214, 0) 177.71%
+  );
+  transition: 0.3s;
 }
 
 .botao2 {
@@ -40,15 +48,15 @@
   display: inline-block;
   border-radius: 4px;
   outline-offset: -2px;
-  outline: 2px solid #8E87F8;
+  outline: 2px solid #8e87f8;
 }
 
 .botao2:hover {
-  outline: 2px solid #483DF5;
-  transition: .3s;
+  outline: 2px solid #483df5;
+  transition: 0.3s;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .introducao {
     height: 460px;
     padding: 60px 40px;
@@ -71,7 +79,7 @@
     font-size: 1.5rem;
   }
   .introducao p {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .botao,
   .botao2 {
